@@ -16,7 +16,7 @@
     width: 35rem;
     height: 65rem;
     background-image: linear-gradient(to top, #f3b07c, #fcd238);
-    border: solid black 2rem;
+    border: solid black 1rem;
     border-radius: 3rem;
     display: flex;
     flex-direction: column;
