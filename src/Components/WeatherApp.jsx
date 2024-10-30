@@ -111,10 +111,12 @@ const WeatherApp = () => {
                     <img src={weatherImage} alt="sunny" />
                     <div className="weather-type">{data.weather ? data.weather[0].main : null}</div>
                     <div className="temp">{data.main ? `${Math.floor(data.main.temp)}°` : null}</div>                
-            </div>
+                </div>
+            
             <div className="weather-date">
                 <p>{formattedDate}</p>
-            </div>    
+            </div> 
+               
             <div className="weather-data">
                 <div className="humidity">
                     <div className="data-name">Humidity</div>
